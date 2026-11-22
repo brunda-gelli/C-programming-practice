@@ -73,3 +73,80 @@ concepts used:
 2.arrays
 
 
+#uppercase<->lowercase letters
+
+
+problem:
+
+
+converting upper case to lower case letters and vice versa
+
+
+approach:
+
+
+1.using ASCII values convert upper case to lower case letters and lower case to upper case letters 
+
+
+2.print the modified string
+
+
+concepts used:
+
+
+1.strings
+
+
+2.ascii values
+
+
+3.conditional boundary loops
+
+
+#minimum difference.c
+
+
+problem:
+
+
+increasing or decreasing every element of array by k once repeating this for all possible cases and printing the minimum difference of max and min value of each array case
+
+
+approach:
+
+
+1.sorting arr given by user
+
+
+
+2.using 2 for loops (a)for no of possible cases
+(b)for updating elements in arr
+
+
+3.leaving cases having negative elements by checking with count
+
+
+4.taking valid cases arr and sorting that modified array to get another updated arr to find difference 
+
+
+5.storing difference of valid cases into arr2 and sorting arr2
+
+
+6.printing arr2[0] required minimum difference 
+
+
+concepts used:
+
+
+1.nested loops
+
+
+2.conditional loop boundaries 
+
+
+3.arrays
+
+
+4.bubble sort
+
+
